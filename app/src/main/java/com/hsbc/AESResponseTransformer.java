@@ -68,4 +68,9 @@ public class AESResponseTransformer implements ResponseTransformerV2 {
     public String getName() {
         return "aes-encryptor";
     }
+
+    @Override
+    public boolean applyGlobally() {
+        return false;
+    }
 }

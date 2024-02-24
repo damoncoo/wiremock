@@ -1,32 +1,32 @@
 {
-  "id" : "dec274f1-1e6f-4d72-bfe8-080ec12ffd40",
-  "name" : "products_1",
-  "request" : {
-    "url" : "/products/1",
-    "method" : "GET"
+  "id": "dec274f1-1e6f-4d72-bfe8-080ec12ffd40",
+  "name": "products_1",
+  "request": {
+    "url": "/products/1",
+    "method": "GET"
   },
-  "response" : {
-    "status" : 200,
-    "body" : "{\"id\":1,\"title\":\"iPhone 9\",\"description\":\"An apple mobile which is nothing like apple\",\"price\":549,\"discountPercentage\":12.96,\"rating\":4.69,\"stock\":94,\"brand\":\"Apple\",\"category\":\"smartphones\",\"thumbnail\":\"https://cdn.dummyjson.com/product-images/1/thumbnail.jpg\",\"images\":[\"https://cdn.dummyjson.com/product-images/1/1.jpg\",\"https://cdn.dummyjson.com/product-images/1/2.jpg\",\"https://cdn.dummyjson.com/product-images/1/3.jpg\",\"https://cdn.dummyjson.com/product-images/1/4.jpg\",\"https://cdn.dummyjson.com/product-images/1/thumbnail.jpg\"]}",
-    "headers" : {
-      "date" : "Thu, 22 Feb 2024 10:04:35 GMT",
-      "server" : "railway",
-      "vary" : "Accept-Encoding",
-      "x-ratelimit-limit" : "100",
-      "x-frame-options" : "SAMEORIGIN",
-      "x-download-options" : "noopen",
-      "x-ratelimit-reset" : "1708596281",
-      "x-ratelimit-remaining" : "99",
-      "strict-transport-security" : "max-age=15552000; includeSubDomains",
-      "access-control-allow-origin" : "*",
-      "x-xss-protection" : "1; mode=block",
-      "x-content-type-options" : "nosniff",
-      "x-dns-prefetch-control" : "off",
-      "etag" : "W/\"219-Qb5jNZGxbDZom9db3B0+RJe2d+4\"",
-      "content-type" : "application/json; charset=utf-8"
+  "response": {
+    "status": 200,
+    "body": "{\"id\":1,\"title\":\"iPhone 9\",\"description\":\"An apple mobile which is nothing like apple\",\"price\":549,\"discountPercentage\":12.96,\"rating\":4.69,\"stock\":94,\"brand\":\"Apple\",\"category\":\"smartphones\",\"thumbnail\":\"https://cdn.dummyjson.com/product-images/1/thumbnail.jpg\",\"images\":[\"https://cdn.dummyjson.com/product-images/1/1.jpg\",\"https://cdn.dummyjson.com/product-images/1/2.jpg\",\"https://cdn.dummyjson.com/product-images/1/3.jpg\",\"https://cdn.dummyjson.com/product-images/1/4.jpg\",\"https://cdn.dummyjson.com/product-images/1/thumbnail.jpg\"]}",
+    "headers": {
+      "date": "Thu, 22 Feb 2024 10:04:35 GMT",
+      "server": "railway",
+      "vary": "Accept-Encoding",
+      "x-ratelimit-limit": "100",
+      "x-frame-options": "SAMEORIGIN",
+      "x-download-options": "noopen",
+      "x-ratelimit-reset": "1708596281",
+      "x-ratelimit-remaining": "99",
+      "strict-transport-security": "max-age=15552000; includeSubDomains",
+      "access-control-allow-origin": "*",
+      "x-xss-protection": "1; mode=block",
+      "x-content-type-options": "nosniff",
+      "x-dns-prefetch-control": "off",
+      "etag": "W/\"219-Qb5jNZGxbDZom9db3B0+RJe2d+4\"",
+      "content-type": "application/json; charset=utf-8"
     }
   },
-  "uuid" : "dec274f1-1e6f-4d72-bfe8-080ec12ffd40",
-  "persistent" : true,
-  "insertionIndex" : 1
+  "uuid": "dec274f1-1e6f-4d72-bfe8-080ec12ffd40",
+  "persistent": true,
+  "insertionIndex": 1
 }

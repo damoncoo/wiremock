@@ -58,4 +58,9 @@ public class RSAResponseTransformer implements ResponseTransformerV2 {
     public String getName() {
         return "rsa-encryptor";
     }
+
+    @Override
+    public boolean applyGlobally() {
+        return false;
+    }
 }
