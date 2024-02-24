@@ -20,6 +20,7 @@ dependencies {
     // This dependency is used by the application.
     implementation libs.guava
     implementation "org.wiremock:wiremock:3.4.1"    
+    implementation group: 'net.minidev', name: 'json-smart', version: '1.1.1'
 }
 
 testing {

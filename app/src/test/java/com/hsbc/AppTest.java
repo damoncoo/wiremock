@@ -9,5 +9,6 @@ import static org.testng.Assert.*;
 public class AppTest {
     @Test
     public void appHasAGreeting() {
+        assertEquals(1, 1);
     }
 }

@@ -4,13 +4,18 @@
 package com.hsbc;
 
 import com.github.tomakehurst.wiremock.*;
+import com.github.tomakehurst.wiremock.core.*;
 
 public class App {
     public static void main(String[] args) {
         int port = 1080;
         System.out.println("Wiremock server started on port " + port);
 
-        WireMockServer wireMockServer = new WireMockServer(port);
+        @SuppressWarnings("unchecked")
+        WireMockConfiguration configuration = WireMockConfiguration.wireMockConfig().port(port)
+                .extensions(AESResponseTransformer.class, RSAResponseTransformer.class);
+
+        WireMockServer wireMockServer = new WireMockServer(configuration);
         wireMockServer.start();
     }
 }

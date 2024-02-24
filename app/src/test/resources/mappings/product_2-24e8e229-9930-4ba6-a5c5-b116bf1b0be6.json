@@ -1,0 +1,33 @@
+{
+  "id": "24e8e229-9930-4ba6-a5c5-b116bf1b0be6",
+  "name": "product_2",
+  "request": {
+    "url": "/product/2",
+    "method": "GET"
+  },
+  "response": {
+    "transformers": ["aes-encryptor"],
+    "status": 200,
+    "body": "{\"id\":2,\"title\":\"iPhone X\",\"description\":\"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...\",\"price\":899,\"discountPercentage\":17.94,\"rating\":4.44,\"stock\":34,\"brand\":\"Apple\",\"category\":\"smartphones\",\"thumbnail\":\"https://cdn.dummyjson.com/product-images/2/thumbnail.jpg\",\"images\":[\"https://cdn.dummyjson.com/product-images/2/1.jpg\",\"https://cdn.dummyjson.com/product-images/2/2.jpg\",\"https://cdn.dummyjson.com/product-images/2/3.jpg\",\"https://cdn.dummyjson.com/product-images/2/thumbnail.jpg\"]}",
+    "headers": {
+      "date": "Fri, 23 Feb 2024 13:47:12 GMT",
+      "server": "railway",
+      "vary": "Accept-Encoding",
+      "x-ratelimit-limit": "100",
+      "x-frame-options": "SAMEORIGIN",
+      "x-download-options": "noopen",
+      "x-ratelimit-reset": "1708696038",
+      "x-ratelimit-remaining": "99",
+      "strict-transport-security": "max-age=15552000; includeSubDomains",
+      "access-control-allow-origin": "*",
+      "x-xss-protection": "1; mode=block",
+      "x-content-type-options": "nosniff",
+      "x-dns-prefetch-control": "off",
+      "etag": "W/\"220-4vgIRUODVSHu9AP6yOFklhn4L8c\"",
+      "content-type": "application/json; charset=utf-8"
+    }
+  },
+  "uuid": "24e8e229-9930-4ba6-a5c5-b116bf1b0be6",
+  "persistent": true,
+  "insertionIndex": 2
+}
