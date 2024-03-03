@@ -42,5 +42,5 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = 'com.hsbc.App'
+    mainClass = 'com.hsbc.Wiremock'
 }

@@ -6,9 +6,9 @@ package com.hsbc;
 import com.github.tomakehurst.wiremock.*;
 import com.github.tomakehurst.wiremock.core.*;
 
-public class App {
+public class Wiremock {
     public static void main(String[] args) {
-        int port = 1080;
+        int port = Integer.parseInt(System.getProperty("wiremock.port", "1080"));
         System.out.println("Wiremock server started on port " + port);
 
         @SuppressWarnings("unchecked")
